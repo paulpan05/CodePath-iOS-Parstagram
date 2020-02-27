@@ -15,6 +15,7 @@
 		A36933C9240781F200B27443 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36933C8240781F200B27443 /* LoginViewController.swift */; };
 		A36933CB2407821400B27443 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36933CA2407821400B27443 /* FeedViewController.swift */; };
 		A36933CD24078B4100B27443 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36933CC24078B4100B27443 /* CameraViewController.swift */; };
+		A36933CF2407978C00B27443 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36933CE2407978C00B27443 /* PostCell.swift */; };
 		BEEB7437EA5C9FA7A706361A /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924B3AFD5ACB831A1E73F13C /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		A36933C8240781F200B27443 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A36933CA2407821400B27443 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A36933CC24078B4100B27443 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A36933CE2407978C00B27443 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				A36933C8240781F200B27443 /* LoginViewController.swift */,
 				A36933CA2407821400B27443 /* FeedViewController.swift */,
 				A36933CC24078B4100B27443 /* CameraViewController.swift */,
+				A36933CE2407978C00B27443 /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				A36933B524077B7E00B27443 /* AppDelegate.swift in Sources */,
 				A36933CB2407821400B27443 /* FeedViewController.swift in Sources */,
 				A36933B724077B7E00B27443 /* SceneDelegate.swift in Sources */,
+				A36933CF2407978C00B27443 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
