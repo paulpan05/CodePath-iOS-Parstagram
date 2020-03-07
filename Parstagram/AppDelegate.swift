@@ -11,11 +11,11 @@ import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         // Initialize Parse
         // Set applicationId and server based on the values in the Heroku settings.
         Parse.initialize(
@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://codepath-parstagram.herokuapp.com/parse"
             })
         )
+        
         return true
     }
 
